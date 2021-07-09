@@ -44,6 +44,10 @@
     margin-top:70px;
 }
 
+.box__large{
+    margin-bottom:70px;
+}
+
 .contact-pos__list{
     list-style: none;
     display: flex;
