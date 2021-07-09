@@ -1,0 +1,113 @@
+#contact__page a{
+    color:#f29400;
+    text-decoration: none;
+}
+
+#contact__page i.fa{
+    color:#f29400;
+}
+
+.wrapper{
+    max-width:1200px;
+    margin:0 auto;
+}
+
+.box__large{
+    background:#F7F7F7;
+    padding:40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:30px;
+}
+
+.box__title{
+    margin-bottom:15px;
+}
+
+.box__column{
+    width:800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box__subtitle{
+    margin-top:20px;
+    font-size:25px;
+}
+
+.box__contact{
+    font-size:25px;
+}
+
+.contact-pos__wrapper, .box__large{
+    margin-top:70px;
+}
+
+.contact-pos__list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin:0;
+    padding: 0;
+}
+
+.contact-pos__item{
+    background:#F7F7F7;
+    padding:20px;
+    width: 366px;
+}
+
+.contact-pos__contact{
+    margin-left:35px;
+}
+
+.contact__typeOfContact{
+    margin-top:10px;
+}
+
+.contact__department-name{
+    font-weight:700;
+}
+
+.contact-pos__btn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact__comment{
+    display: flex;
+    font-size:12px;
+    line-height:initial;
+    margin-top:20px;
+}
+
+.contact__comment span{
+    font-weight:800;
+    margin-right:5px;
+}
+
+#contact__page .contact-pos__more{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: #3c3c3c;
+    color: #fff;
+    padding: 7px 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border:none;
+}
+
+#contact__page .contact-pos__more:hover{
+    text-decoration:underline;
+}
+
+.contact__company-info{
+    margin-bottom:20px;
+}
+
+.contact__company-name{
+    font-size:20px;
+}
