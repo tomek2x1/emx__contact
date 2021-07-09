@@ -13,7 +13,6 @@
 }
 
 .box__large{
-    /* background:#F7F7F7; */
     padding:40px 20px;
     display: flex;
     flex-direction: column;
@@ -113,3 +112,49 @@
 .contact__company-name{
     font-size:20px;
 }
+
+@media (max-width: 1199px) {
+    .contact-pos__list {
+        justify-content: center;
+    }
+  }
+
+@media (max-width: 991px) {
+    .box__column {
+      width:100%;
+      padding-left:30px;
+      padding-right:30px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .box__large {
+        margin-left:20px;
+        margin-right:20px;
+    }
+
+    .box__column {
+        flex-direction: column;
+    }
+
+    .box__contact {
+        font-size: 1rem;
+    }
+
+  }
+
+  @media (max-width: 575px) {
+    .box__large {
+        margin-left:0px;
+        margin-right:0px;
+    }
+
+    .box__column {
+        flex-direction: column;
+    }
+
+    .box__contact {
+        font-size: 1rem;
+    }
+
+  }
